@@ -10,8 +10,7 @@ import java.net.URLEncoder;
 public class ValidateDemoApplication {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
-		SpringApplication.run(ValidateDemoApplication.class, args);
-		System.out.println(URLEncoder.encode(null,"UTF-8"));
+		SpringApplication.run(ValidateDemoApplication.class, args)
 	}
 
 }
